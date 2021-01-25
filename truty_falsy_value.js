@@ -1,5 +1,11 @@
-// falsy values
-// false, "", 0, null, undefined, NaN ; everything else is truthy
+// all 6 falsy values below->
+// false,
+// "",
+// 0,
+// null,
+// undefined,
+// NaN ;
+// everything else is truthy
 
 let myVar = [];
 
