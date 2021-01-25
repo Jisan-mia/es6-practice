@@ -7,6 +7,10 @@ if (age >= 18) {
 	type = "child";
 }
 
+let x = 25;
+let y = x >= 25;
+console.log(y); // y = ture
+
 //using ternary operator
 type = age >= 18 ? "adult" : "child";
 
