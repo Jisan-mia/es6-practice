@@ -4,6 +4,6 @@
 
 // import { a } from "./moduleImpExp1.js"; // named import
 
-import externel, { myFunc, pi } from "./moduleImpExp1.js"; // default import
-console.log(externel, pi);
+import external, { myFunc, pi } from "./moduleImpExp1.js"; // default import
+console.log(external, pi);
 myFunc();

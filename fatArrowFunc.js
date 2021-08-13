@@ -35,7 +35,7 @@ const searchInput = document.querySelector(".search");
 const display = document.querySelector(".result");
 const thanks = document.querySelector(".thanks");
 
-//normal funciton that works perfectly
+//normal function that works perfectly
 function show() {
 	display.innerHTML = this.value;
 	var self = this;
@@ -51,8 +51,8 @@ const show1 = () => {
 
 searchInput.addEventListener("keyup", show);
 
-//new keyword in fat arrow funciton
-//vanila js function is it selft is an constructor
+//new keyword in fat arrow function
+//vanilla js function is itself is an constructor
 function Person(name) {
 	this.name = name;
 }

@@ -1,20 +1,20 @@
 //tagged template literals
 
 //friends
-function friendModifer(string, ...values) {
+function friendModifier(string, ...values) {
 	const m = string.reduce((prev, current) => {
 		return prev + current + (values.length ? "Mr. " + values.shift() : "");
 	}, "");
 	return m;
 }
-const frineds = ["Shawon", "Porag", "Mursalin"];
+const friends = ["Shawon", "Porag", "Mursalin"];
 
 console.log(
-	friendModifer`My favourite friends are ${frineds[0]}, ${frineds[1]} and ${frineds[2]}.`
+	friendModifier`My favorite friends are ${friends[0]}, ${friends[1]} and ${friends[2]}.`
 );
 
 // team player
-function modifer(strings, ...values) {
+function modifier(strings, ...values) {
 	const m = strings.reduce((prev, current) => {
 		return prev + current + (values.length ? "Mr. " + values.shift() : "");
 	}, "");
@@ -23,5 +23,5 @@ function modifer(strings, ...values) {
 
 const players = ["Sakib", "Tamim"];
 console.log(
-	modifer`We have ${players[0]} and ${players[1]} in our cricket team.`
+	modifier`We have ${players[0]} and ${players[1]} in our cricket team.`
 );

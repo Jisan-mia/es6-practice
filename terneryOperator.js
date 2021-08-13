@@ -9,12 +9,12 @@ if (age >= 18) {
 
 let x = 25;
 let y = x >= 25;
-console.log(y); // y = ture
+console.log(y); // y = true
 
 //using ternary operator
 type = age >= 18 ? "adult" : "child";
 
-// a funciton that checks wheather you are rich, middleCass or poor according to your salary(don't take it seriously)
+// a function that checks whether you are rich, middleClass or poor according to your salary(don't take it seriously)
 
 function socialPosition(salary) {
 	return salary >= 50000

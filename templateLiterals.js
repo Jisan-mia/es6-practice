@@ -1,4 +1,4 @@
-// template literalse  ``(bactic)
+// template literals  ``(bactic)
 
 const firstName = "Jisan";
 const lastName = "Mia";
