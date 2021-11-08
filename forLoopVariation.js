@@ -1,22 +1,18 @@
-//for loop, for in, for of
+// for loop variation in javascript
 
-// for loop
+// for = loops through a block of code a number of times
 for (let i = 0; i <= 5; i++) {
-	// console.log(i);
+	console.log(i);
 }
 
-//for in
-const myObj = {
-	name: "Jisan",
-	age: "18",
-	fName: "Abul Bashar",
-};
+// for in = loops through the properties of an object/array
+const studentObj = {name: 'Joe', roll: 1233, age: 21};
 
-for (property in myObj) {
-	// console.log(property, myObj[property]);
+for (property in studentObj) {
+	console.log(property, myObj[property]);
 }
 
-// for of
+// for of = loops through the 
 const myArr = [1, 2, 3, 4, 5, 6];
 for (element of myArr) {
 	// console.log(element);
@@ -26,14 +22,3 @@ const myStr = "My name is Jisan";
 for (element of myStr) {
 	// console.log(element);
 }
-
-//practice
-//a function that takes an string and return each word of that string
-
-function stringWord(string) {
-	let splitStr = string.split(" ");
-	for (element of splitStr) {
-		console.log(element);
-	}
-}
-stringWord(myStr);
